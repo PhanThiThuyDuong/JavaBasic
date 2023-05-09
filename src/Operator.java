@@ -28,8 +28,8 @@ public class Operator {
         int a = 55, b = 45 , c = 100;
         System.out.println("Tổng của a + b là:" + (a + b) );
         System.out.println("Hiệu của a - b là:" + (a - b) );
-        System.out.println("Tích của a + b là:" + (a * b) );
-        System.out.println("Thương của a + b là:" + (a / b) );
+        System.out.println("Tích của a * b là:" + (a * b) );
+        System.out.println("Thương của a /arg b là:" + (a / b) );
         System.out.println("Kết quả toán tử &&" + (c > a && c>b));
         System.out.println("Kết quả toán tử ||" + (c > a || c > b));
         System.out.println("Kết quả của phép Not" +(!(a>b)));
